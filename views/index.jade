@@ -1,0 +1,77 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  select#Element350.required(data-val='true', data-val-required='Type of Program Interested in  is required.', name='00N6100000DVxY4')
+    option(value='', selected='selected', label='* Type of Program Interested in: ') * Type of Program Interested in: 
+    // <option class="section" value="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UNDERGRADUATE DEGREES</option>
+    option(data-areas='Nursing', data-degrees='B', data-pid='70', value='a0361000008wRW9AAM') RN to BSN (licensed RNs only)
+    option(data-areas='Nursing', data-degrees='M', data-pid='563', value='a0361000008wRWBAA2') RN to MSN in Clinical Nurse Educator
+    option(data-areas='Nursing', data-degrees='M', data-pid='562', value='a0361000008wRWDAA2') RN to MSN in Leadership in Healthcare Systems
+    option(data-areas='Nursing', data-degrees='M', data-pid='587', value='a0361000008wRWFAA2') RN to MSN Informatics Specialization
+    // <option class="section" value="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GRADUATE DEGREES</option>
+    option(data-areas='Nursing', data-degrees='M', data-pid='390', value='a0361000008wRXQAA2') MSN Clinical Nurse Educator
+    option(data-areas='Nursing', data-degrees='M', data-pid='258', value='a0361000008wRXTAA2') MSN Leadership in Healthcare Systems
+    option(data-areas='Nursing', data-degrees='M', data-pid='585', value='a0361000008wRVlAAM') MSN Informatics Specialization
+    option(data-areas='Health Informatics', data-degrees='M', data-pid='568', value='a0361000008wRTTAA2') MS Health Informatics
+    option(data-areas='Business', data-degrees='M', value='a036100000DROgVAAX') Master of Science in Organizational Leadership
+    option(data-areas='Business', data-degrees='M', value='a036100000DROgGAAX') Master of Science in Applied Business Analytics
+    // <option class="section" value="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FOR-CREDIT CERTIFICATES</option>
+    option(data-areas='Nursing', data-degrees='C', value='a035B000000mnb9QAA') Post Graduate Certificate: Clinical Nurse Educator
+    option(data-areas='Nursing', data-degrees='C', value='a035B000000mnbEQAQ') Post Graduate Certificate: Leadership in Healthcare Systems
+    option(data-areas='Nursing', data-degrees='C', value='a0361000008wRXMAA2') Post Graduate Certificate: Nursing Informatics
+
+  //- select#Element5471.required(data-val='true', data-val-required='Type of Program Interested In is required.', name='00N6100000DVxY4')
+      option(value='') * Type of Program Interested In:
+      option.section(value='', disabled='disabled') Associate Degrees
+      option(data-degrees='A', data-pid='345', value='a0361000008wRTZAA2', data-area='Business Administration') AA in Business Administration
+      option(data-degrees='A', data-pid='542', value='a0361000008wRTbAAM', data-area='Criminal Justice') AA in Criminal Justice
+      option(data-degrees='A', data-pid='344', value='a0361000008wRTeAAM', data-area='Liberal Studies') AA in Liberal Studies
+      option(data-degrees='A', data-pid='543', value='a0361000008wRTgAAM', data-area='Psychology') AA in Psychology
+      option(data-degrees='A', data-pid='551', value='a0361000008wRThAAM', data-area='Sociology') AA in Sociology
+      option(data-degrees='A', data-pid='541', value='a0361000008wRUgAAM', data-area='Accounting,Business Administration') AS in Accounting
+      option(data-degrees='A', data-pid='544', value='a0361000008wRUiAAM', data-area='Healthcare') AS in Healthcare Administration
+      option(data-degrees='A', data-pid='552', value='a0361000008wRUjAAM', data-area='Criminal Justice,Human Services') AS in Human Services
+      option.section(value='', disabled='disabled') Bachelor Degrees
+      option(data-degrees='B', data-pid='360', value='a0361000008wRUrAAM', data-area='Business Administration') BA in Business Administration
+      option(data-degrees='B', data-pid='346', value='a0361000008wRUtAAM', data-area='Accounting,Business Administration') BA in Business Administration/Accounting
+      option(data-degrees='B', value='a0361000009WN5hAAG', data-area='Business Administration') BA in Business Administration/Business Analytics
+      option(data-degrees='B', data-pid='347', value='a0361000008wRUuAAM', data-area='Business Administration,Information Technology') BA in Business Administration/Computer Science
+      option(data-degrees='B', value='a0361000009WN6QAAW', data-area='Business Administration,Marketing') BA in Business Administration/E-Commerce and Digital Marketing
+      option(data-degrees='B', value='a0361000009WN6RAAW', data-area='Business Administration,Accounting') BA in Business Administration/Finance
+      option(data-degrees='B', value='a0361000009WN6SAAW', data-area='Business Administration,Healthcare') BA in Business Administration/Healthcare Administration
+      option(data-degrees='B', value='a0361000009WN6TAAW', data-area='Business Administration') BA in Business Administration/Human Resource Management
+      option(data-degrees='B', value='a0361000009WN6UAAW', data-area='Business Administration') BA in Business Administration/International Business
+      option(data-degrees='B', data-pid='348', value='a0361000008wRUxAAM', data-area='Business Administration') BA in Business Administration/Management
+      option(data-degrees='B', data-pid='349', value='a0361000008wRUzAAM', data-area='Business Administration,Marketing') BA in Business Administration/Marketing
+      option(data-degrees='B', value='a0361000009WN6WAAW', data-area='Business Administration,Project Management') BA in Business Administration/Project Management
+      option(data-degrees='B', value='a0361000009WN6XAAW', data-area='Business Administration') BA in Business Administration/Strategic Sales Management
+      option(data-degrees='B', value='a0361000009WN6YAAW', data-area='Business Administration,Communication,Liberal Studies') BA in Communication
+      option(data-degrees='B', value='a0361000009WN6ZAAW', data-area='Business Administration,Communication,Liberal Studies') BA in Communication/Journalism
+      option(data-degrees='B', value='a0361000009WN6aAAG', data-area='Business Administration,Communication,Liberal Studies') BA in Communication/Media Studies
+      option(data-degrees='B', value='a0361000009WN6bAAG', data-area='Business Administration,Communication,Liberal Studies,Marketing') BA in Communication/Public Relations and Advertising
+      option(data-degrees='B', data-pid='371', value='a0361000008wROeAAM', data-area='Criminal Justice') BA in Criminal Justice
+      option(data-degrees='B', value='a0361000009WN6cAAG', data-area='Information Technology,Criminal Justice,Cybersecurity') BA in Criminal Justice/Cybersecurity and Information Assurance
+      option(data-degrees='B', value='a0361000009WN6dAAG', data-area='Criminal Justice') BA in Criminal Justice/Homeland Security and Emergency Management
+      option(data-degrees='B', value='a0361000009WN6eAAG', data-area='Criminal Justice,Human Services') BA in Criminal Justice/Human Services
+      option(data-degrees='B', value='a0361000009WN6fAAG', data-area='Criminal Justice') BA in Criminal Justice/Institutional and Community-Based Corrections
+      option(data-degrees='B', value='a0361000009WN6gAAG', data-area='Criminal Justice') BA in Criminal Justice/Law Enforcement
+      option(data-degrees='B', data-pid='553', value='a0361000008wROgAAM', data-area='Liberal Studies') BA in Humanities
+      option(data-degrees='B', data-pid='372', value='a0361000008wROiAAM', data-area='Psychology') BA in Psychology
+      option(data-degrees='B', value='a0361000009WN6hAAG', data-area='Psychology') BA in Psychology/Addiction and Substance Abuse
+      option(data-degrees='B', value='a0361000009WN6iAAG', data-area='Psychology') BA in Psychology/Applied Behavioral Analysis
+      option(data-degrees='B', data-pid='547', value='a0361000008wROjAAM', data-area='Psychology') BA in Psychology/Clinical Psychology
+      option(data-degrees='B', data-pid='546', value='a0361000008wROkAAM', data-area='Criminal Justice,Psychology') BA in Psychology/Criminal Justice
+      option(data-degrees='B', data-pid='548', value='a0361000008wROlAAM', data-area='Psychology') BA in Psychology/Developmental Psychology
+      option(data-degrees='B', value='a0361000009WN6lAAG', data-area='Criminal Justice') BA in Psychology/Forensic Psychology
+      option(data-degrees='B', value='a0361000009WN6mAAG', data-area='Human Services,Psychology,Criminal Justice') BA in Psychology/Human Services
+      option(data-degrees='B', value='a0361000009WN6nAAG', data-area='Psychology') BA in Psychology/Marriage Therapy and Family Counseling
+      option(data-degrees='B', data-pid='555', value='a0361000008wROmAAM', data-area='Sociology') BA in Sociology
+      option(data-degrees='B', data-pid='545', value='a0361000008wROpAAM', data-area='Accounting,Business Administration') BS in Accounting
+      option(data-degrees='B', data-pid='373', value='a0361000008wROrAAM', data-area='Healthcare') BS in Healthcare Administration
+      option(data-degrees='B', value='a0361000009WcobAAC', data-area='Healthcare,Information Technology') BS in Healthcare Administration/Health Informatics
+      option(data-degrees='B', data-pid='556', value='a0361000008wROsAAM', data-area='Criminal Justice,Human Services') BS in Human Services
+      option(data-degrees='B', data-pid='554', value='a0361000008wROtAAM', data-area='Liberal Studies') BS in Social Sciences
+
+    
